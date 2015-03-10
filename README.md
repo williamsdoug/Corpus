@@ -1,7 +1,7 @@
 # Git Analytics Sample Datasets
 
 Datasets are in CSV format, gzipped for storage efficiency.  Each dataset consists of 3 files, 
-- <project>_<importance>_feature_vectors.csv.gz - Numpy array saved using numpy.savetext()
+- \<project\>_\<importance\>_feature_vectors.csv.gz - Numpy array saved using numpy.savetext()
 - <project>_<importance>_labels.csv.gz - Single column binary label for each feature vector.  This value is the result of comparing the guilt value with a threshold value, where the threshold value is selected such that the number of labeled commits (value=1) roughly corresponds to the number of actual bugs (subject to minimum importance value)
 - <project>_<importance>_info.csv.gz - Other info each feature vector
  - Git Commit ID (SHA)
